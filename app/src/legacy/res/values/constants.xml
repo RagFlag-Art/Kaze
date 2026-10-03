@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_type_sync" translatable="false">org.doki.legacy.sync</string>
+    <string name="sync_authority_history" translatable="false">org.ragflag.kaze.legacy.history</string>
+    <string name="sync_authority_favourites" translatable="false">org.ragflag.kaze.legacy.favourites</string>
+</resources>

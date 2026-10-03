@@ -1,0 +1,10 @@
+package org.ragflag.kaze.list.ui.adapter
+
+import android.view.View
+import org.ragflag.kaze.core.ui.widgets.TipView
+
+interface MangaListListener : MangaDetailsClickListener, ListStateHolderListener, ListHeaderClickListener,
+	TipView.OnButtonClickListener, QuickFilterClickListener {
+
+	fun onFilterClick(view: View?)
+}
