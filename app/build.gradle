@@ -161,7 +161,7 @@ dependencies {
         exts = System.getProperty('exts')
     }
     //noinspection UseTomlInstead
-    implementation("com.github.DokiTeam:doki-exts:$exts") {
+    implementation("com.github.ElFokuser:Kaze-exts:$exts") {
         exclude group: 'org.json', module: 'json'
     }
 
